@@ -1,4 +1,4 @@
-body {background-color: rgb(215, 83, 255) ; /* the selector on this "body" is not the right selector, need to find right selector so that the background color goes to all new webpages*/
+body {backound-color: #ee82ee ; /* the selector on this "body" is not the right selector, need to find right selector so that the background color goes to all new webpages*/
 }
 
 
@@ -55,9 +55,10 @@ h1 {
     font-family: "Varela Round", sans-serif;
     font-weight: 400;
     font-style: normal;
-color:rgb(217, 190, 253) ;
+color:rgb(255, 0, 212) ;
 font-size: 2.6em;
 text-align: center;
+  
 }
 
 .headerthree {
@@ -65,25 +66,8 @@ text-align: center;
     font-weight: 400;
     font-style: normal;
     font-size: 2.5em;
-    text-align:left ;
-    color: rgb(244, 248, 248);
+    text-align:right;
+    color: #e7b7fd;
   }
 
- .get-to-know-me {
-    font-family: "Varela Round", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.5em;
-    text-align: left;
-    color: rgb(217, 190, 253);
- }
-
- .aboutme {
-    color:aqua;
-    font-size: 2em;
-    font-family: "Pacifico", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-weight: 400;
-    font-style: normal;
- }
+ 
