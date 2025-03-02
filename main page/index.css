@@ -1,4 +1,4 @@
-body {background-color: #ee82ee ;
+body {background-color: #ee82ee ; /* the selector on this "body" is not the right selector, need to find right selector so that the background color goes to all new webpages*/
 }
 
 h1 {
@@ -13,3 +13,14 @@ em {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 
+.white {
+    color:white ;
+}
+
+.green {
+    color: green ;
+}
+
+#test {
+    color:blue
+}
