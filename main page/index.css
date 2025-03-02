@@ -5,14 +5,8 @@ body {background-color: #ee82ee ; /* the selector on this "body" is not the righ
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    color: #1e90ff
-}
-
-em {
-    color:#f11df8a6 ;
-    font-style: normal;
-    font-size: 2.5em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    color: #ffc3ff ;
+    font-size: xx-larg ;
 }
 
 .white {
@@ -37,6 +31,36 @@ em {
 
 .font-styles {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style:italic ;
+    font-style:italic;
     font-weight: bold;
 }
+
+.headerone { 
+    font-family: "Libre Barcode 39 Extended Text", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size:5em;
+    color:aqua
+      } 
+      
+.whiteshirt {
+        float:right;
+        width: 400px;
+        margin-top: -220px;
+}
+
+.headertwo {
+    font-family: "Moon Dance", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4em;
+  }
+
+  .headerthree {
+        font-family: "Varela Round", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    color:rgb(139, 3, 218) ;
+    font-size: 2em;
+      
+  }
