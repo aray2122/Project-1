@@ -1,19 +1,27 @@
 body {background-color: rgb(215, 83, 255) ; /* the selector on this "body" is not the right selector, need to find right selector so that the background color goes to all new webpages*/
     display: flex;
+    justify-content: flex-start;
+    align-items:flex;
+    flex-direction:column;
+
 }
 
-.boxh1 { 
+section {
+  
+}
+
+
+
+.header1 {
     font-family: "Libre Barcode 39 Extended Text", system-ui;
     border: 8px solid black ;
-    display: flex ;
-    justify-content: center;
     align-items: center;
+    width: 15em;
     font-weight: 400;
     font-style: normal;
-    font-size:2em;
+    font-size:5em;
     color:aqua;
     text-align: center;
-
 }
 
 .font-styles {
@@ -29,8 +37,10 @@ body {background-color: rgb(215, 83, 255) ; /* the selector on this "body" is no
         margin-top: -220px;
 }
 
-.headertwo {
+.header2 {
     font-family: "Pacifico", cursive;
+    border: 8px solid black;
+
     font-weight: 400;
     font-style:italic;
 color:rgb(217, 190, 253) ;
