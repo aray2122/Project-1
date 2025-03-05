@@ -1,33 +1,19 @@
 body {background-color: rgb(215, 83, 255) ; /* the selector on this "body" is not the right selector, need to find right selector so that the background color goes to all new webpages*/
+    display: flex;
 }
 
+.boxh1 { 
+    font-family: "Libre Barcode 39 Extended Text", system-ui;
+    border: 8px solid black ;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-style: normal;
+    font-size:2em;
+    color:aqua;
+    text-align: center;
 
-
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #ffc3ff ;
-    font-size: xx-larg ;
-}
-
-.white {
-    color:white ;
-}
-
-.green {
-    color: green ;
-
-}
-
-#test {
-    color:blue
-}
-
-.orange {
-    background-color: orange;
-}
-
-.yellow {
-    background-color: yellow;
 }
 
 .font-styles {
@@ -35,17 +21,7 @@ h1 {
     font-style:italic;
     font-weight: bold;
 }
-
-.headerone { 
-    font-family: "Libre Barcode 39 Extended Text", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    font-size:5.5em;
-    color:aqua;
-    text-align: center;
-    
-    
-      } 
+     
       
 .whiteshirt {
         float:right;
