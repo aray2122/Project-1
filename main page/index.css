@@ -2,7 +2,6 @@ body{
         background-image: url("images/night-city-re.jpg");
         background-repeat: no-repeat;
         background-color: black;
-        border: 8px solid white;
         height: 40em
     
 }
@@ -38,17 +37,23 @@ p {
 color:rgb(217, 190, 253) ;
 font-size: 5em;
 text-align: center;
-margin-bottom: 0% ;
+margin-bottom: 3% ;
+margin-left: -20% ;
 }
 
 .headerthree {
-    font-family: "Moon Dance", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2.5em;
-    text-align:left ;
-    color: rgb(244, 248, 248);
-    margin-bottom: 40%;
+        font-family: "Beau Rivage", cursive;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 5em;   
+color:rgb(217, 190, 253);
+    display:flex;
+    flex: center;
+    justify-content: center;
+    margin-top: 3.6%;
+    margin-left: 53%;
+
+    
   }
 
  .get-to-know-me {
@@ -66,12 +71,15 @@ margin-bottom: 0% ;
 
  .me {
     color:aqua;
-    font-size: 2em;
-    font-family: "Varela Round", sans-serif;
+    font-family: "Tourney", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 400;
+    font-size: 3.5em;
     font-style: normal;
-    font-weight: 400;
-    font-style: normal;
+    margin-left: 36%;
+    margin-bottom: -1.2%;
+   
+
  }
 
  .linkedin {
@@ -85,7 +93,11 @@ margin-bottom: 0% ;
 
  }
 
-.laptop {
-    border: 8px solid white;
-
-}
+ .linkimage {
+    height: 2em;
+    border: 6px solid rgb(15, 27, 103) ;
+    margin-top: -5.8%;
+    display: flex;
+    margin-left: 16%;
+    
+ }
