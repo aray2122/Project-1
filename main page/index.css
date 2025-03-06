@@ -1,7 +1,16 @@
-body {background-color: rgb(215, 83, 255) ; /* the selector on this "body" is not the right selector, need to find right selector so that the background color goes to all new webpages*/
+body{
+        background-image: url("images/night-city-re.jpg");
+        background-repeat: no-repeat;
+        background-color: black;
+        border: 8px solid white;
+        height: 40em
+    
 }
 
-/*how do i get this to wrap when I shrink the screen!*/
+p {
+    color: white;
+}
+
 .header1 {
     font-family: "Libre Barcode 39 Extended Text", system-ui;
     align-items: center;
@@ -20,16 +29,6 @@ body {background-color: rgb(215, 83, 255) ; /* the selector on this "body" is no
     font-weight: bold;
 }
      
-      
-.whiteshirt {
-       border: 8px solid black;
-        width: 30em;
-        margin-top: -15% ;
-        margin-bottom: -100% ;
-       float:right;
-       
-        
-}
 
 .header2 {
     font-family: "Pacifico", cursive;
@@ -49,15 +48,20 @@ margin-bottom: 0% ;
     font-size: 2.5em;
     text-align:left ;
     color: rgb(244, 248, 248);
+    margin-bottom: 40%;
   }
 
  .get-to-know-me {
     font-family: "Varela Round", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: left;
     color: rgb(217, 190, 253);
+    border: 8px solid white;
+    display: flex;
+    height: 1em;
+    width: 10em;
  }
 
  .me {
@@ -70,3 +74,18 @@ margin-bottom: 0% ;
     font-style: normal;
  }
 
+ .linkedin {
+    color:aqua;
+    font-size: 1em;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 400;
+    font-style: normal;
+
+ }
+
+.laptop {
+    border: 8px solid white;
+
+}
