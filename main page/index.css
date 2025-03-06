@@ -42,16 +42,17 @@ margin-left: -20% ;
 }
 
 .headerthree {
-        font-family: "Beau Rivage", cursive;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 5em;   
+    font-family: "Pacifico", cursive;
+    margin-top: 0%;
+    font-weight: 400;
+    font-style:italic;   
+    font-size: 5em;
 color:rgb(217, 190, 253);
     display:flex;
     flex: center;
     justify-content: center;
     margin-top: 3.6%;
-    margin-left: 53%;
+    margin-left: 35%;
 
     
   }
