@@ -12,7 +12,11 @@ margin-left: 2em;
 margin-top: 0%;
 margin-bottom: 1.1%;
 
+
+
 }
+
+
 
 .aboutme {
     font-size: 12em;
@@ -23,16 +27,20 @@ margin-bottom: 1.1%;
    margin-bottom: 0%;
    padding: 0%;
     font-family: "Love Light", cursive;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
+    color: #fff;
+    text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+    animation: glow 1.5s infinite alternate;
   }
   
   .headertwo {
-    font-family: "Love Light", cursive;
+    font-family: "Assistant", sans-serif;
     font-weight: 400;
     font-style: normal;
     display: flex;
     justify-content: center;
+    border: 8px solid white;
 
   }
 
@@ -45,22 +53,15 @@ margin-bottom: 1.1%;
     justify-content: center;
   }
 
-  .shadow-dance-text {
-    color: rgb(217, 190, 253);
-    text-shadow: 5px 5px 0 #ff005e, 10px 10px 0 #00d4ff;
-    animation: shadow-dance 2s infinite;
-    font-size: 1.2em;
-    margin-top: -1%;
-    margin-left: 1.3%;
-    margin-bottom: -30%;
+
+
+  @keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+    }
+    100% {
+        text-shadow: 0 0 10px #00d4ff, 0 0 20px #00d4ff, 0 0 40px #00d4ff, 0 0 80px #00d4ff, 0 0 160px #00d4ff;
+    }
 }
 
-@keyframes shadow-dance {
-    0%, 100% {
-        text-shadow: 5px 5px 0 #dd00ff, 10px 10px 0 #00d4ff;
-    }
-    50% {
-        text-shadow: -5px -5px 0 #00d4ff, -10px -10px 0 #ff00ae;
-    }
-}
 
