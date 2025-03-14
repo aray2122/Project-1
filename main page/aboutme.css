@@ -13,7 +13,7 @@ border-radius: round;
 display: flex;
 align-content: center;
 margin-left: 2%;
-margin-top:2%;
+margin-top:0%;
 }
 
   
@@ -29,13 +29,11 @@ margin-top:2%;
   }
   
   .h1 {
-    font-size: 3em;
+    font-size: 5em;
    display:flex;
-   justify-content: center;
    color: rgb(217, 190, 253);
-   margin-top: -45%;
-   margin-bottom: 0%;
-   padding-left: 2.4%;
+   margin-top: -46%;
+   margin-left: 74%;
    font-family: "Pacifico", cursive;
     font-weight: 200;
     font-style: normal;
@@ -66,9 +64,32 @@ margin-top:2%;
   font-size: 1.3em;
   color:rgb(255, 117, 117);
   display: flex;
-  text-wrap: wrap;
-  width: 25em;
-  margin-left: 0%;
-  padding-top: 20%;
+  width: 15em;
+  margin-left: 75%;
+  margin-top: -3%;
 }
 
+.linksection {
+  color: rgb(255, 117, 117);
+  margin-bottom: -21%;
+}
+
+.link {
+  font-size: 1.5em;
+}
+
+.linkedin {
+  margin-left: 48%;
+  margin-top: -16%;
+  display: flex;
+  height: 2.5em;
+}
+
+.instaimage {
+  display:flex;
+  height: 2.5em;
+  margin-top: -16%;
+  margin-left: 52%;
+  border: 1em solid white;
+
+}
