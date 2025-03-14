@@ -1,38 +1,21 @@
 body {
-    background-image: url("images/pink-and-aqua-water.jpg");
+    background-image: url("images/red-tunneledit.jpg");
+    border-radius: 3%;
+    background-repeat: no-repeat;
+    background-color: rgb(10, 6, 7);
     
 }
 
 .aliapic {
-height: 16em;
-border: 2em solid rgb(217, 190, 253);
+height: 35em;
+border-radius: 20%;
+border-radius: round;
 display: flex;
 align-content: center;
-margin-left: 2em;
-margin-top: 0%;
-margin-bottom: 1.1%;
-
-
-
+margin-left: 2%;
+margin-top:2%;
 }
 
-
-
-.aboutme {
-    font-size: 12em;
-   display:flex;
-   justify-content: center;
-   color: rgb(217, 190, 253);
-   margin-top: -25%;
-   margin-bottom: 0%;
-   padding: 0%;
-    font-family: "Love Light", cursive;
-    font-weight: 200;
-    font-style: normal;
-    color: #fff;
-    text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
-    animation: glow 1.5s infinite alternate;
-  }
   
   .headertwo {
     font-family: "Assistant", sans-serif;
@@ -41,18 +24,32 @@ margin-bottom: 1.1%;
     display: flex;
     justify-content: center;
     border: 8px solid white;
+    color: white;
 
   }
+  
+  .h1 {
+    font-size: 3em;
+   display:flex;
+   justify-content: center;
+   color: rgb(217, 190, 253);
+   margin-top: -45%;
+   margin-bottom: 0%;
+   padding-left: 2.4%;
+   font-family: "Pacifico", cursive;
+    font-weight: 200;
+    font-style: normal;
+    color: #fff;
+    text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+    animation: glow 1.5s infinite alternate;
+  }
 
-  .me {
-    font-family: "Assistant", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+  .resume {
+    color: white;
     display: flex;
     justify-content: center;
+    border: 8px solid white;
   }
-
 
 
   @keyframes glow {
@@ -64,4 +61,14 @@ margin-bottom: 1.1%;
     }
 }
 
+
+.aboutmetext {
+  font-size: 1.3em;
+  color:rgb(255, 117, 117);
+  display: flex;
+  text-wrap: wrap;
+  width: 25em;
+  margin-left: 0%;
+  padding-top: 20%;
+}
 
