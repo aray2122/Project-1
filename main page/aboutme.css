@@ -1,9 +1,14 @@
 body {
-    background-image: url("images/red-tunneledit.jpg");
+    background-color: rgb(10, 6, 7);
+    
+}
+
+.bgimage {
+      background-image: url("images/red-tunneledit.jpg");
+    background-size: 200px 11px;
     border-radius: 3%;
     background-repeat: no-repeat;
     background-color: rgb(10, 6, 7);
-    
 }
 
 .aliapic {
@@ -75,7 +80,7 @@ margin-top:0%;
 }
 
 .link {
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 .linkedin {
@@ -90,6 +95,6 @@ margin-top:0%;
   height: 2.5em;
   margin-top: -16%;
   margin-left: 52%;
-  border: 1em solid white;
+
 
 }

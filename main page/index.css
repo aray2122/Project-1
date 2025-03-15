@@ -1,39 +1,62 @@
-body{
-    background-image: url("images/neon-tunnel.jpg");
+body {
+
+        background-image: url("images/black-laptop.jpg");
         background-repeat: no-repeat;
         background-color: black;
-        height: 30em;
-    align-self: center;
-}
-
-p {
-    color: white;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: 40em 40em;
+        
 }
 
 .header1 {
-    font-family: "Libre Barcode 39 Extended Text", system-ui;
-    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size:3em;
-    color:aqua;
-    text-align: center;
-    margin-top: 0%;
-    margin-bottom: 0%;
-} 
-
-.header2 {
-    font-family: "Pacifico", cursive;
-    margin-top: 0%;
-    font-weight: 400;
-    font-style:italic;
 color:rgb(197, 155, 253) ;
-font-size: 5em;
+font-size: 2.9em;
 text-align: center;
-margin-bottom: 1% ;
-margin-left: 2% ;
+justify-content: center;
 display:flex;
+position: fixed;
+top: 0 ;
+right: 0;
+left: 0;
+z-index: 999;
 }
+
+
+.intro {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+color:rgb(197, 155, 253) ;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-size: 1.5em;
+    padding-top: 3em;
+    
+
+}
+
+
+.footer {
+    font-family: "Libre Barcode 39 Extended Text", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size:3.5em;
+    color:rgb(197, 155, 253);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+right: 0;
+left: 0;
+z-index: 999;
+} 
 
 .headerthree {
     font-family: "Pacifico", cursive;
@@ -81,12 +104,12 @@ justify-content: center;
  }
 
 .neon-text {
-    font-size: 4rem;
+    font-size:2em;
     color: #fff;
     text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
     animation: glow 1.5s infinite alternate;
     display:flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin-top: -1%;
 }
 @keyframes glow {
