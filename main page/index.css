@@ -1,11 +1,8 @@
 body {
-
-        background-image: url("images/black-laptop.jpg");
-        background-repeat: no-repeat;
         background-color: black;
         background-attachment: fixed;
         background-position: center;
-        background-size: 40em 40em;
+        background-size: 40em 30em;
         
 }
 
@@ -15,7 +12,7 @@ body {
     font-weight: 400;
     font-style: normal;
 color:rgb(197, 155, 253) ;
-font-size: 2.9em;
+font-size: 1.8em;
 text-align: center;
 justify-content: center;
 display:flex;
@@ -33,22 +30,92 @@ z-index: 999;
     font-weight: 400;
     font-style: normal;
 color:rgb(197, 155, 253) ;
-    display: flex;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-   font-size: 1.5em;
-    padding-top: 3em;
+top: 0 ;
+right: 0;
+left: 0;
+z-index: 999;
+   font-size: 3em;
+   margin-left: 17%;
+   position: fixed;
+
     
 
 }
+.GIF1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 25em;
+
+}
+
+.aboutmeneon {
+    font-size:1.5em;
+    color: #fff;
+    text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+    animation: glow 1.5s infinite alternate;
+   display: flex;
+   margin-top: -41.3%;
+   margin-left: 0%;
+
+
+}
+
+.projectsneon {
+    font-size:1.5em;
+    color: #fff;
+    text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+    animation: glow 1.5s infinite alternate;
+   display: flex;
+   margin-top: -43%;
+   margin-left: 91.4%;
+
+}
+
+.contactneon {
+    font-size:1.5em;
+    color: #fff;
+    text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+    animation: glow 1.5s infinite alternate;
+   display: flex;
+   margin-top: -41%;
+   margin-left: 90%;
+}
+
+.hiremeneon {
+    font-size:1.45em;
+    color: #fff;
+    text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+    animation: glow 1.5s infinite alternate;
+   display: flex;
+   margin-top: -43%;
+   margin-left: 0.8%;
+}
+.linkedin {
+    margin-left: 68.8%;
+    margin-top: -41.8%;
+    display: flex;
+    height: 1.9em;
+  }
+  
+  .insta {
+    display:flex;
+    height: 2em;
+    margin-top: -42%;
+    margin-left:28.6%;
+  
+  
+  }
+
+
 
 
 .footer {
     font-family: "Libre Barcode 39 Extended Text", system-ui;
     font-weight: 400;
     font-style: normal;
-    font-size:3.5em;
+    font-size:2.5em;
     color:rgb(197, 155, 253);
     text-align: center;
     position: fixed;
@@ -57,51 +124,6 @@ right: 0;
 left: 0;
 z-index: 999;
 } 
-
-.headerthree {
-    font-family: "Pacifico", cursive;
-    margin-top: 0%;
-    font-weight: 400;
-    font-style:italic;   
-    font-size: 5em;
-color:rgb(197, 155, 253);
-    display:flex;
-    flex: center;
-    justify-content: center;
-    margin-top: 1%;
-    margin-left: 30%;
-
-  }
-
- .me {
-    color:aqua;
-    font-family: "Tourney", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-size: 3.5em;
-    font-style: normal;
-justify-content: center;
-   
-
- }
-
- .linkedin {
-    color:aqua;
-    font-size: 1em;
-    font-family: "Varela Round", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-
- }
-
- .linkimage {
-    height: 1.8em;
-    border: 2px solid rgb(21, 204, 255) ;
-    margin-top: -5.8%;
-    display: flex;
-    margin-left: 16%;
-    
- }
 
 .neon-text {
     font-size:2em;
