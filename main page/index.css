@@ -36,7 +36,7 @@ left: 0;
 z-index: 999;
    font-size: 3em;
    margin-left: 17%;
-   position: fixed;
+   margin-top: -38%;
 
     
 
@@ -56,9 +56,9 @@ z-index: 999;
     text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
     animation: glow 1.5s infinite alternate;
    display: flex;
-   margin-top: -41.3%;
+   margin-top: -11%;
    margin-left: 0%;
-
+position: fixed;
 
 }
 
@@ -68,8 +68,9 @@ z-index: 999;
     text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
     animation: glow 1.5s infinite alternate;
    display: flex;
-   margin-top: -43%;
+   margin-top: -14.5%;
    margin-left: 91.4%;
+   position: fixed;
 
 }
 
@@ -79,8 +80,9 @@ z-index: 999;
     text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
     animation: glow 1.5s infinite alternate;
    display: flex;
-   margin-top: -41%;
+   margin-top: -15%;
    margin-left: 90%;
+   position: fixed;
 }
 
 .hiremeneon {
@@ -89,8 +91,9 @@ z-index: 999;
     text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
     animation: glow 1.5s infinite alternate;
    display: flex;
-   margin-top: -43%;
+   margin-top: -16%;
    margin-left: 0.8%;
+   position: fixed;
 }
 .linkedin {
     margin-left: 68.8%;
@@ -141,4 +144,37 @@ z-index: 999;
     100% {
         text-shadow: 0 0 10px #00d4ff, 0 0 20px #00d4ff, 0 0 40px #00d4ff, 0 0 80px #00d4ff, 0 0 160px #00d4ff;
     }
+}
+
+.s2h1 {
+    color: white;
+    display: flex;
+   margin-top: 27%;
+   justify-self: center;
+   
+}
+
+.s1aboutme {
+    color: white;
+    width: 20em;
+    display: flex;
+    justify-self: center;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.selfie {
+    display: block;
+    width: 12em;
+    margin-top: 6%;
+    margin-left: 53%;
+}
+
+
+.GIFweights {
+    width: 18em;
+margin-top: -40%;
+margin-bottom: 13%;
+margin-left: 29%;
 }
