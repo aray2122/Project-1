@@ -14,13 +14,15 @@ body {
 color:rgb(197, 155, 253) ;
 font-size: 1.8em;
 text-align: center;
-justify-content: center;
-display:flex;
+background-color: rgba(0, 0, 0, 0.427);
 position: fixed;
 top: 0 ;
 right: 0;
 left: 0;
 z-index: 999;
+width: 16.5em;
+margin-left: 31.2%;
+
 }
 
 
@@ -124,6 +126,7 @@ position: fixed;
     font-style: normal;
     font-size:2.5em;
     color:rgb(197, 155, 253);
+    background-color: rgba(0, 0, 0, 0.427);
     text-align: center;
     position: fixed;
     bottom: 0;
@@ -204,12 +207,36 @@ margin-left: 29.6%;
     color: rgb(197, 155, 253);
     justify-self: center;
     font-size: 2em;
-    justify-items: center;
+    justify-items: left;
     margin-top: -3%;
 }
 
-.javalogo {
-    width: 5em;
+.jslogo {
+    width: 10em;
+
+}
+
+.csslogo {
+    width: 7.1em;
+}
+
+.htmllogo {
+    width: 10.3em;
+}
+
+.logos {
+margin-left: 30%;
+}
+
+.thinkimage {
+width: 15em;
+height: 15em;
+display: block;
+margin-left: auto;
+position: right;
+margin-right: 30%;
+margin-top: 2%;
+
 }
 
 .skills {
