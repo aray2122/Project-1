@@ -145,14 +145,25 @@ z-index: 999;
    
 }
 
+.AliaRay {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(197, 155, 253);
+    justify-self: center;
+    font-size: 3em;
+    margin-bottom: -5%;
+    text-decoration: underline;
+    font-weight: 400;
+
+}
+
 .s1aboutme {
-    color: white;
-    width: 20em;
+    color: rgb(197, 155, 253);
+    width: 30em;
     display: flex;
     justify-self: center;
     font-size: 1.2em;
     text-align: center;
-    margin-top: 3%;
+    margin-top: 5%;
 }
 
 .selfie {
@@ -184,11 +195,29 @@ margin-left: 29.6%;
     font-style: normal;
     color:#00d4ff;
     display: flex;
-   margin-top: -0%;
+   margin-top: 5%;
    justify-self: center;
 
 }
 
 .resumeskills {
-    color: white;
+    color: rgb(197, 155, 253);
+    justify-self: center;
+    font-size: 2em;
+    justify-items: center;
+    margin-top: -3%;
+}
+
+.javalogo {
+    width: 5em;
+}
+
+.skills {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(197, 155, 253);
+    justify-self: center;
+    font-size: 3em;
+    text-decoration: underline;
+    font-weight: 400;
+    margin-top: -5%;
 }
