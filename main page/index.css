@@ -71,7 +71,7 @@ z-index: 999;
     font-style: normal;
     color:#00d4ff;
    display: flex;
-   margin-top: -12.5%;
+   margin-top: -8%;
    margin-left: 89%;
    position: fixed;
 }
@@ -83,7 +83,7 @@ z-index: 999;
     font-style: normal;
     color: rgb(197, 155, 253);
    display: flex;
-   margin-top: -11%;
+   margin-top: -2%;
    margin-left: 87.5%;
    position: fixed;
 }
@@ -95,7 +95,7 @@ z-index: 999;
         font-style: normal;
         color:#00d4ff;
    display: flex;
-   margin-top: -5.5%;
+   margin-top: -10%;
    margin-left: 89%;
 position: fixed;
 }
@@ -107,7 +107,7 @@ position: fixed;
     font-style: normal;
     color: rgb(197, 155, 253);
    display: flex;
-   margin-top: -1%;
+   margin-top: -10%;
    margin-left: 89.5%;
    position: fixed;
 }
@@ -208,6 +208,7 @@ position: fixed;
     font-family: "Montserrat", sans-serif;
     color: rgb(197, 155, 253);
     justify-self: center;
+    position: center;
     font-size: 3em;
     text-decoration: underline;
     font-weight: 400;
