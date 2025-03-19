@@ -315,11 +315,11 @@ margin-top: 0%;
     input[type=text], select, textarea {
         width: 30%; /* Full width */
         padding: 12px; /* Some padding */ 
-        border: 1px solid #ccc; /* Gray border */
-        border-radius: 4px; /* Rounded borders */
+        border: .3em solid #00d4ff; /* Gray border */
+        border-radius: 20px; /* Rounded borders */
         box-sizing: border-box; /* Make sure that padding and width stays in place */
-        margin-top: 0.3em; /* Add a top margin */
-        margin-bottom:0.3em; /* Bottom margin */
+        margin-top: 0em; /* Add a top margin */
+        margin-bottom:0.6em; /* Bottom margin */
         resize: vertical ;/* Allow the user to vertically resize the textarea (not horizontally)*/
         margin-left: 36%;
     }
@@ -327,7 +327,7 @@ margin-top: 0%;
 
 
 input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #00d4ff;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -337,7 +337,7 @@ input[type=submit] {
   }
 
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: rgb(197, 155, 253);
   }
 
 .label1 {
