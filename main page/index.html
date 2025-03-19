@@ -22,6 +22,8 @@
         rel="stylesheet">
     <title>Alia Ray</title>
     <link rel="stylesheet" href="index.css" />
+    <link rel="images" href="images.css" />
+    <link rel="text" href="text.css" />
     <script src="index.js"></script> <!-- not sure if this is in right spot, might have to go in body-->
 
 </head>
@@ -29,11 +31,10 @@
 
     <body>
         <img class="GIF1"
-            src="https://media.giphy.com/media/VTtANKl0beDFQRLDTh/giphy.gif?cid=790b7611vt33oscihm6p4cjbxx27u84y41agl4riw3spcxau&ep=v1_gifs_search&rid=giphy.gif&ct=g"
-            alt="'GIF">
-        <h1 class="header1">|&#9829|Welcome|&#9829;|My name is Alia|&#9829|</h1>
+                src="https://media.giphy.com/media/VTtANKl0beDFQRLDTh/giphy.gif?cid=790b7611vt33oscihm6p4cjbxx27u84y41agl4riw3spcxau&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+                    alt="'GIF">
+    <h1 class="header1">|&#9829|Welcome|&#9829;|My name is Alia|&#9829|</h1>
 
-        <!--CANT GET THESE IMAGES TO LINK FFS-->
         <li><a class="linkedin" href="https://www.linkedin.com/in/alia-ray-79b248354"><img src="images/linkedin-pic.png"
                     target="my linkedin profile"></a></li>
         <li><a class="insta" href="https://www.instagram.com/cory.diamonds/"><img class="instaimage"
@@ -122,15 +123,38 @@
 <h1 class="h1projects">|&#9829;|Projects|&#9829;|</h1>
 
 <p class="projects">&#128565;&#128565;.....WAAHHH I HAVE NO PROJECTS(YET)......&#128565;&#128565;</p>
+<div><img class="thinkimage" src="images/think-about-things.jpg"></div>
 
 
 </section>
 
 
 <section>
-<h1 class="contactform">Contact Me</h1>
+    <h1 class="contact">|&#9829;|Contact Me|&#9829;|</h1>
 
-<!--SUPER COOL CONTACT FORM HERE-->
+    <div class="contactform">
+        <form action="action_page.php">
+      
+          <div><label class="label1" for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.."></div>
+      
+          <div><label for="lname">Last Name</label></div>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <div><label for="country">Country</label></div>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
 
 
 
